@@ -97,7 +97,7 @@ const Appointments = () => {
                           </span>
                           
                           <div className="mt-4 space-x-2">
-                            <Button variant="outline" size="sm">Reschedule</Button>
+                            <Button variant="outline" className="hover:text-white" size="sm">Reschedule</Button>
                             <Button variant="destructive" size="sm">Cancel</Button>
                           </div>
                         </div>

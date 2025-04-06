@@ -26,20 +26,20 @@ const Index = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           <div className="lg:col-span-2">
             <Tabs defaultValue="appointments" className="w-full">
-              <TabsList className="flex flex-wrap gap-1 sm:gap-2 mb-4">
-                <TabsTrigger value="appointments" className="flex items-center gap-1 w-full sm:w-auto">
+              <TabsList className="flex flex-wrap justify-start gap-2 w-full overflow-x-auto pb-2">
+                <TabsTrigger value="appointments" className="flex items-center gap-1 min-w-[120px] sm:min-w-[100px]">
                   <Calendar className="h-3 w-3 sm:h-4 sm:w-4" />
                   Appointments
                 </TabsTrigger>
-                <TabsTrigger value="schemes" className="flex items-center gap-1 w-full sm:w-auto">
+                <TabsTrigger value="schemes" className="flex items-center gap-1 min-w-[120px] sm:min-w-[100px]">
                   <FileText className="h-3 w-3 sm:h-4 sm:w-4" />
                   Schemes
                 </TabsTrigger>
-                <TabsTrigger value="notifications" className="flex items-center gap-1 w-full sm:w-auto">
+                <TabsTrigger value="notifications" className="flex items-center gap-1 min-w-[120px] sm:min-w-[100px]">
                   <Bell className="h-3 w-3 sm:h-4 sm:w-4" />
                   Notifications
                 </TabsTrigger>
-                <TabsTrigger value="profile" className="flex items-center gap-1 w-full sm:w-auto">
+                <TabsTrigger value="profile" className="flex items-center gap-1 min-w-[120px] sm:min-w-[100px]">
                   <User className="h-3 w-3 sm:h-4 sm:w-4" />
                   Profile
                 </TabsTrigger>

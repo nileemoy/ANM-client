@@ -37,7 +37,7 @@ export const translations: Record<Language, TranslationKeys> = {
       "update": "Update",
       "delete": "Delete",
       "add": "Add",
-      "app_name": "XohAi"
+      "app_name": "Client"
     },
     pages: {
       "index": "Home",
@@ -79,7 +79,7 @@ export const translations: Record<Language, TranslationKeys> = {
       "update": "अपडेट करें",
       "delete": "हटाएं",
       "add": "जोड़ें",
-      "app_name": "XohAi"
+      "app_name": "Client"
     },
     pages: {
       "index": "होम",
@@ -121,7 +121,7 @@ export const translations: Record<Language, TranslationKeys> = {
       "update": "আপডেট কৰো",
       "delete": "ৰোৱাৰুৰু",
       "add": "যোগ কৰো",
-      "app_name": "XohAi"
+      "app_name": "Client"
     },
     pages: {
       "index": "মূল পৃষ্ঠা",
@@ -163,7 +163,7 @@ export const translations: Record<Language, TranslationKeys> = {
       "update": "আপডেট করুন",
       "delete": "মুছে ফেলুন",
       "add": "যোগ করুন",
-      "app_name": "XohAi"
+      "app_name": "Client"
     },
     pages: {
       "index": "হোম",

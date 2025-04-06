@@ -31,16 +31,7 @@ const Header = () => {
           ) : null}
           
           <div className="flex items-center gap-2">
-            <img 
-              src="/logo.svg" 
-              alt="XohAi Logo" 
-              className="h-6 w-6 md:h-8 md:w-8"
-              onError={(e) => {
-                e.currentTarget.src = "https://placekitten.com/100/100";
-                e.currentTarget.onerror = null;
-              }} 
-            />
-            <h1 className="font-bold text-base md:text-lg lg:text-xl bg-gradient-to-r from-teal to-blue bg-clip-text text-transparent">
+            <h1 className="font-bold text-base md:text-lg lg:text-xl text-[#579099]">
               {translate('app_name')}
             </h1>
           </div>

@@ -40,7 +40,7 @@ const AppointmentCard: React.FC<AppointmentCardProps> = ({
             <p className="text-xs sm:text-sm mt-2 text-muted-foreground">{location}</p>
           </div>
           <div className="flex flex-col gap-2">
-            <Button className="bg-teal hover:bg-teal/90 text-white w-full">Reschedule</Button>
+            <Button variant="outline" className="border-blue bg-white hover:bg-blue/90 hover:text-white text-blue w-full">Reschedule</Button>
             <Button variant="outline" className="border-red-500 text-red-500 hover:bg-red-50 w-full">Cancel</Button>
           </div>
         </div>

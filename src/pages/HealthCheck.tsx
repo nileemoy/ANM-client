@@ -1,17 +1,19 @@
-
 import React from "react";
 import MainLayout from "@/components/layout/MainLayout";
 import AnemiaPrediction from "@/components/health/AnemiaPrediction";
 import DietRecommendation from "@/components/health/DietRecommendation";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Activity, Heart } from "lucide-react";
+import { Activity, Heart, Mic, User } from "lucide-react";
 
 const HealthCheck = () => {
   return (
     <MainLayout>
-      <div className="container mx-auto px-4 py-6">
+      <div className="container mx-auto px-4 py-6 bg-[url('/path/to/village-scene.svg')] bg-cover relative">
+        <div className="absolute top-4 right-4">
+          <User className="h-8 w-8 text-primary" />
+        </div>
         <div className="mb-6">
-          <h1 className="text-2xl font-bold">स्वास्थ्य जांच</h1>
+          <h1 className="text-3xl font-bold animate-bounce">स्वास्थ्य जांच</h1>
           <p className="text-muted-foreground">
             Check your health status and get personalized recommendations
           </p>
@@ -86,6 +88,9 @@ const HealthCheck = () => {
               </CardContent>
             </Card>
           </div>
+        </div>
+        <div className="fixed bottom-4 right-4 animate-pulse">
+          <Mic className="h-10 w-10 text-primary" />
         </div>
       </div>
     </MainLayout>

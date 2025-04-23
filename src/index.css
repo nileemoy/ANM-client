@@ -1,24 +1,26 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 45 100% 97%; /* Soft Beige */
+    --foreground: 0 0% 20%; /* Comfortable dark gray */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 45 100% 97%; /* Soft Beige */
+    --card-foreground: 0 0% 20%; /* Comfortable dark gray */
 
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 164 40% 75%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 28 80% 60%; /* Warm Orange */
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 109 37% 61%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 50 90% 70%; /* Soft Yellow */
+    --secondary-foreground: 0 0% 20%;
+
+    --support: 120 50% 60%; /* Leafy Green */
+    --support-foreground: 0 0% 100%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;

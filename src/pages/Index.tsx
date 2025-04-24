@@ -13,7 +13,7 @@ const Index = () => {
     <MainLayout>
       <div className="container mx-auto px-2 sm:px-4 py-4">
         <div className="mb-4">
-          <h1 className="text-xl sm:text-2xl font-bold">नमस्ते, राजेश 👋</h1>
+          <h1 className="text-xl sm:text-2xl font-bold">Hey, Welcome 👋</h1>
           <p className="text-sm sm:text-base text-muted-foreground">
             Welcome to your health dashboard
           </p>

@@ -13,7 +13,7 @@ const HealthCheck = () => {
           <User className="h-8 w-8 text-primary" />
         </div>
         <div className="mb-6">
-          <h1 className="text-3xl font-bold animate-bounce">स्वास्थ्य जांच</h1>
+          <h1 className="text-3xl font-bold ">Health Check</h1>
           <p className="text-muted-foreground">
             Check your health status and get personalized recommendations
           </p>
